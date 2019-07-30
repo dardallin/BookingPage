@@ -18,7 +18,7 @@ body {
   align-items: center;
 
   .logo {
-    font-size: 30px;
+    font-size: 32px;
     color: $blue-color;
   }
 
@@ -43,4 +43,15 @@ body {
   display: flex;
   justify-content: space-around;
   margin-top: 160px;
+
+  .bar-btn-map, .bar-btn-book {
+    padding: 20px 20px 20px 20px;
+    background: $blue-color;
+    border-radius: 10px;
+  }
+
+  .map-btn, .booking-btn {
+    text-decoration: none;
+  }
+
 }

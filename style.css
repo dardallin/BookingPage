@@ -15,7 +15,7 @@ body {
   align-items: center;
 }
 .navigation .logo {
-  font-size: 30px;
+  font-size: 32px;
   color: #38A2F6;
 }
 .navigation .span-logo2 {
@@ -34,6 +34,14 @@ body {
   display: flex;
   justify-content: space-around;
   margin-top: 160px;
+}
+.header-buttons .bar-btn-map, .header-buttons .bar-btn-book {
+  padding: 20px 20px 20px 20px;
+  background: #38A2F6;
+  border-radius: 10px;
+}
+.header-buttons .map-btn, .header-buttons .booking-btn {
+  text-decoration: none;
 }
 
 /*# sourceMappingURL=style.css.map */
