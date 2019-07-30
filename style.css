@@ -43,5 +43,8 @@ body {
 .header-buttons .map-btn, .header-buttons .booking-btn {
   text-decoration: none;
 }
+.header-buttons .map-btn-img, .header-buttons .checkmark-btn-ing {
+  width: 50px;
+}
 
 /*# sourceMappingURL=style.css.map */
