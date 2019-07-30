@@ -2,10 +2,21 @@ $blue-color: #38A2F6;
 $green-color: #5CCE88;
 
 body {
-font-family: 'Farro', sans-serif;
+  font-family: 'Farro', sans-serif;
+
+}
+.navigation-top {
+  background: url("images/navigation-image.jpg");
+  height: 500px;
+  background-size: cover;
+  padding: 20px 20px 30px 20px;
 }
 
 .navigation {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+
   .logo {
     font-size: 30px;
     color: $blue-color;
@@ -27,4 +38,9 @@ font-family: 'Farro', sans-serif;
   .logo-navigation {
     width: 60px;
   }
+}
+.header-buttons {
+  display: flex;
+  justify-content: space-around;
+  margin-top: 160px;
 }

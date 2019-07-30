@@ -2,6 +2,18 @@ body {
   font-family: "Farro", sans-serif;
 }
 
+.navigation-top {
+  background: url("images/navigation-image.jpg");
+  height: 500px;
+  background-size: cover;
+  padding: 20px 20px 30px 20px;
+}
+
+.navigation {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
 .navigation .logo {
   font-size: 30px;
   color: #38A2F6;
@@ -16,6 +28,12 @@ body {
 
 .navigation-btn .logo-navigation {
   width: 60px;
+}
+
+.header-buttons {
+  display: flex;
+  justify-content: space-around;
+  margin-top: 160px;
 }
 
 /*# sourceMappingURL=style.css.map */
