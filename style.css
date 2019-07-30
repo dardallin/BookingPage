@@ -1,5 +1,13 @@
 body {
-  font-family: sans-serif;
+  font-family: "Farro", sans-serif;
+}
+
+.avatar-btn .logo-avatar {
+  width: 60px;
+}
+
+.navigation-btn .logo-navigation {
+  width: 60px;
 }
 
 /*# sourceMappingURL=style.css.map */
