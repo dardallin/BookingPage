@@ -1,5 +1,19 @@
+$blue-color: #38A2F6;
+$green-color: #5CCE88;
+
 body {
 font-family: 'Farro', sans-serif;
+}
+
+.navigation {
+  .logo {
+    font-size: 30px;
+    color: $blue-color;
+  }
+
+  .span-logo2 {
+    color: $green-color;
+  }
 }
 
 .avatar-btn {
