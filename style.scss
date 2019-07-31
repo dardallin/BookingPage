@@ -1,5 +1,6 @@
 $blue-color: #38A2F6;
 $green-color: #5CCE88;
+$white-color: white;
 
 body {
   font-family: 'Farro', sans-serif;
@@ -27,34 +28,38 @@ body {
   }
 }
 
-.avatar-btn {
-
-  .logo-avatar {
-    width: 60px;
-  }
+.avatar-navigation {
+  .fa-user-circle, .fa-bars {
+    padding: 8px;
+    font-size: 50px;
+    color: $white-color;
+    }
 }
-.navigation-btn {
 
-  .logo-navigation {
-    width: 60px;
-  }
-}
 .header-buttons {
   display: flex;
-  justify-content: space-around;
+  justify-content: space-evenly;
   margin-top: 160px;
-
-  .bar-btn-map, .bar-btn-book {
-    padding: 20px 20px 20px 20px;
-    background: $blue-color;
-    border-radius: 10px;
-  }
 
   .map-btn, .booking-btn {
     text-decoration: none;
-  }
-  .map-btn-img, .checkmark-btn-ing {
-    width: 50px;
-  }
+    font-size: 20px;
+    font-weight: bold;
+    letter-spacing: 2px;
+    color: $white-color;
+    background: $blue-color;
+    padding: 20px;
+    border-radius: 10px;
+    text-align: center;
+    transition: .4s;
 
+    &:hover {
+      background: rgba($blue-color, 0.7);
+    }
+
+  }
+  .map-btn-img, .checkmark-btn-img {
+    display: none;
+
+  }
 }

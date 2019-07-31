@@ -22,29 +22,34 @@ body {
   color: #5CCE88;
 }
 
-.avatar-btn .logo-avatar {
-  width: 60px;
-}
-
-.navigation-btn .logo-navigation {
-  width: 60px;
+.avatar-navigation .fa-user-circle, .avatar-navigation .fa-bars {
+  padding: 8px;
+  font-size: 50px;
+  color: white;
 }
 
 .header-buttons {
   display: flex;
-  justify-content: space-around;
+  justify-content: space-evenly;
   margin-top: 160px;
-}
-.header-buttons .bar-btn-map, .header-buttons .bar-btn-book {
-  padding: 20px 20px 20px 20px;
-  background: #38A2F6;
-  border-radius: 10px;
 }
 .header-buttons .map-btn, .header-buttons .booking-btn {
   text-decoration: none;
+  font-size: 20px;
+  font-weight: bold;
+  letter-spacing: 2px;
+  color: white;
+  background: #38A2F6;
+  padding: 20px;
+  border-radius: 10px;
+  text-align: center;
+  transition: 0.4s;
 }
-.header-buttons .map-btn-img, .header-buttons .checkmark-btn-ing {
-  width: 50px;
+.header-buttons .map-btn:hover, .header-buttons .booking-btn:hover {
+  background: rgba(56, 162, 246, 0.7);
+}
+.header-buttons .map-btn-img, .header-buttons .checkmark-btn-img {
+  display: none;
 }
 
 /*# sourceMappingURL=style.css.map */
