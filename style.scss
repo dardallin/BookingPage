@@ -38,11 +38,12 @@ body {
 
 .header-buttons {
   display: flex;
-  justify-content: space-evenly;
+  justify-content: center;
   margin-top: 160px;
 
   .map-btn, .booking-btn {
     text-decoration: none;
+    margin: 10px;
     font-size: 20px;
     font-weight: bold;
     letter-spacing: 2px;
@@ -62,4 +63,7 @@ body {
     display: none;
 
   }
+}
+.navigation-panel {
+  border: 2px solid black;
 }
