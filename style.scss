@@ -1,6 +1,7 @@
 $blue-color: #38A2F6;
 $green-color: #5CCE88;
 $white-color: white;
+$text-color: #2d3a58;
 
 body {
   font-family: 'Farro', sans-serif;
@@ -65,5 +66,19 @@ body {
   }
 }
 .navigation-panel {
-  border: 2px solid black;
+  display: flex;
+  justify-content: space-evenly;
+  flex-wrap: nowrap;
+
+  .panel-element {
+    padding: 33px 0;
+    font-weight: 600;
+    color: $text-color;
+    border-bottom: 2px solid $blue-color;
+    width: 100%;
+    max-width: 1200px;
+    text-align: center;
+    margin: 0;
+
+  }
 }
