@@ -80,12 +80,13 @@ body {
     max-width: 1200px;
     text-align: center;
     margin: 0;
+    cursor: pointer;
+
   }
 }
 .blocks {
   display: flex;
   justify-content: space-between;
-  margin-left: 10px;
   padding-top: 55px;
   padding-bottom: 40px;
   margin: 0 300px 0 300px;
