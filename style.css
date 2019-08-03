@@ -57,6 +57,7 @@ body {
   display: flex;
   justify-content: space-evenly;
   flex-wrap: nowrap;
+  margin: 0 400px 0 400px;
 }
 .navigation-panel .panel-element {
   padding: 33px 0;
@@ -67,6 +68,41 @@ body {
   max-width: 1200px;
   text-align: center;
   margin: 0;
+}
+
+.blocks {
+  display: flex;
+  justify-content: space-between;
+  margin-left: 10px;
+  padding-top: 55px;
+  padding-bottom: 40px;
+  margin: 0 300px 0 300px;
+}
+.blocks .block1, .blocks .block2 {
+  color: #2d3a58;
+  width: 100%;
+}
+.blocks .block-title {
+  font-size: 24px;
+  font-weight: 600;
+  padding-bottom: 30px;
+}
+.blocks .week {
+  width: 100%;
+}
+.blocks .week .table-row {
+  font-size: 15px;
+  line-height: 24px;
+}
+.blocks .week .table-row .day, .blocks .week .table-row .time {
+  text-transform: uppercase;
+  padding-bottom: 14px;
+  font-size: 14px;
+  vertical-align: top;
+  letter-spacing: 1px;
+}
+.blocks .week .table-row .day {
+  font-weight: 900;
 }
 
 /*# sourceMappingURL=style.css.map */
