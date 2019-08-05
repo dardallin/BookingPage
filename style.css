@@ -28,12 +28,7 @@ body {
   color: white;
 }
 
-.header-buttons {
-  display: flex;
-  justify-content: center;
-  margin-top: 160px;
-}
-.header-buttons .map-btn, .header-buttons .booking-btn {
+.btn {
   text-decoration: none;
   margin: 10px;
   font-size: 20px;
@@ -42,15 +37,23 @@ body {
   color: white;
   background: #38A2F6;
   padding: 20px;
-  border-radius: 10px;
+  border-radius: 4px;
   text-align: center;
   transition: 0.4s;
+  cursor: pointer;
 }
-.header-buttons .map-btn:hover, .header-buttons .booking-btn:hover {
+.btn:hover {
   background: rgba(56, 162, 246, 0.7);
 }
-.header-buttons .map-btn-img, .header-buttons .checkmark-btn-img {
+
+.map-btn-img, .checkmark-btn-img {
   display: none;
+}
+
+.header-buttons {
+  display: flex;
+  justify-content: center;
+  margin-top: 160px;
 }
 
 .navigation-panel {
@@ -103,6 +106,16 @@ body {
 }
 .blocks .week .table-row .day {
   font-weight: 900;
+}
+
+.allReviews-section {
+  text-align: center;
+  padding: 30px;
+}
+.allReviews-section .review-btn {
+  font-weight: 600;
+  font-size: 18px;
+  padding: 10px 14px;
 }
 
 /*# sourceMappingURL=style.css.map */
