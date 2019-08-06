@@ -191,6 +191,10 @@ body {
 .options {
   color: $text-color;
 
+  .all-options {
+    display: flex;
+  }
+
   .options-title {
     text-align: center;
     font-size: 24px;
@@ -199,8 +203,8 @@ body {
   }
 }
 
-.option1 {
-  width: 33.33%;
+.option1, .option2, .option3, .option4 {
+  width: 20%;
   border: 1px solid rgba($text-color, 0.1);
   margin: 30px;
 
@@ -271,6 +275,5 @@ body {
     }
 
   }
-
 
 }
