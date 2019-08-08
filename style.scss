@@ -311,3 +311,35 @@ body {
     }
   }
 }
+footer {
+  .footer-navigation {
+    display: flex;
+    justify-content: center;
+
+    p {
+      margin: 8px;
+      a {
+        color: $blue-color;
+        font-size: 12px;
+        text-decoration: none;
+        &:hover {
+          text-decoration: underline;
+        }
+      }
+    }
+  }
+  .account-information {
+    display: flex;
+    justify-content: center;
+    p {
+      a {
+        color: $blue-color;
+        font-size: 12px;
+        text-decoration: none;
+        &:hover {
+          text-decoration: underline;
+        }
+      }
+    }
+  }
+}

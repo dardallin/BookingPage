@@ -331,4 +331,32 @@ body {
   margin: 0px 20px 50px 20px;
 }
 
+footer .footer-navigation {
+  display: flex;
+  justify-content: center;
+}
+footer .footer-navigation p {
+  margin: 8px;
+}
+footer .footer-navigation p a {
+  color: #38A2F6;
+  font-size: 12px;
+  text-decoration: none;
+}
+footer .footer-navigation p a:hover {
+  text-decoration: underline;
+}
+footer .account-information {
+  display: flex;
+  justify-content: center;
+}
+footer .account-information p a {
+  color: #38A2F6;
+  font-size: 12px;
+  text-decoration: none;
+}
+footer .account-information p a:hover {
+  text-decoration: underline;
+}
+
 /*# sourceMappingURL=style.css.map */
