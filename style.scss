@@ -275,5 +275,23 @@ body {
     }
 
   }
-
 }
+
+.allOptionArea {
+  margin: 50px 0 50px 0;
+  text-align: center;
+
+  .all-options-btn {
+    font-size: 16px;
+    padding: 15px 15px 15px 15px;
+    background: none;
+    color: $blue-color;
+    border: 1px solid $blue-color;
+    transition: .4s;
+
+    &:hover {
+      opacity: 0.7;
+    }
+  }
+}
+

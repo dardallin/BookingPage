@@ -302,4 +302,20 @@ body {
   letter-spacing: 0;
 }
 
+.allOptionArea {
+  margin: 50px 0 50px 0;
+  text-align: center;
+}
+.allOptionArea .all-options-btn {
+  font-size: 16px;
+  padding: 15px 15px 15px 15px;
+  background: none;
+  color: #38A2F6;
+  border: 1px solid #38A2F6;
+  transition: 0.4s;
+}
+.allOptionArea .all-options-btn:hover {
+  opacity: 0.7;
+}
+
 /*# sourceMappingURL=style.css.map */
