@@ -295,3 +295,19 @@ body {
   }
 }
 
+.map-area {
+  .map-title {
+    text-align: center;
+    color: $text-color;
+    font-size: 24px;
+    max-width: 1200px;
+    margin: 50px auto 30px;
+  }
+  .map {
+    iframe {
+      width: 100%;
+      height: 600px;
+      margin: 0px 20px 50px 20px;
+    }
+  }
+}
