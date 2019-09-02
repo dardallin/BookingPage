@@ -147,17 +147,12 @@ body {
   .popup-gallery {
     text-align: center;
 
-    .image {
+    img {
       float: left;
-      height: 208px;
-      width: 208px;
       margin: 10px;
-      background-size: cover;
-      background-position: center;
       cursor: pointer;
 
     }
-
   }
 }
 

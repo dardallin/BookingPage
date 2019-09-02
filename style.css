@@ -128,13 +128,9 @@ body {
 .gallery .popup-gallery {
   text-align: center;
 }
-.gallery .popup-gallery .image {
+.gallery .popup-gallery img {
   float: left;
-  height: 208px;
-  width: 208px;
   margin: 10px;
-  background-size: cover;
-  background-position: center;
   cursor: pointer;
 }
 
