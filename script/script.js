@@ -7,3 +7,4 @@ $('.popup-gallery').each(function() { // the containers for all your galleries
         }
     });
 });
+
