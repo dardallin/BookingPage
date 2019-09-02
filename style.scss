@@ -144,7 +144,7 @@ body {
     max-width: 1200px;
     margin: 50px auto 30px;
   }
-  .gallery-images {
+  .popup-gallery {
     text-align: center;
 
     .image {
@@ -157,35 +157,7 @@ body {
       cursor: pointer;
 
     }
-    .image1 {background-image: url("images/Gallery/1.jpg")}
-    .image2 {background-image: url("images/Gallery/2.jpeg")}
-    .image3 {background-image: url("images/Gallery/3.jpeg")}
-    .image4 {background-image: url("images/Gallery/4.png")}
-    .image5 {background-image: url("images/Gallery/5.jpeg")}
-    .image6 {background-image: url("images/Gallery/6.jpeg")}
-    .image7 {background-image: url("images/Gallery/7.jpeg")}
-    .image8 {background-image: url("images/Gallery/8.jpeg")}
-    .image9 {background-image: url("images/Gallery/9.png")}
-    .image10 {background-image: url("images/Gallery/10.png")}
-    .image11 {background-image: url("images/Gallery/11.jpeg")}
-    .image12 {background-image: url("images/Gallery/12.jpeg")}
-    .image13 {background-image: url("images/Gallery/13.jpeg")}
-    .image14 {background-image: url("images/Gallery/14.jpeg")}
-    .image15 {background-image: url("images/Gallery/15.jpeg")}
-    .image16 {background-image: url("images/title-image.jpeg")}
-    .image17 {background-image: url("images/Gallery/16.jpeg")}
-    .image18 {background-image: url("images/Gallery/17.jpeg")}
-    .image19 {background-image: url("images/Gallery/18.jpeg")}
-    .image20 {background-image: url("images/Gallery/19.jpeg")}
-    .image21 {background-image: url("images/Gallery/20.jpeg")}
-    .image22 {background-image: url("images/Gallery/21.jpeg")}
-    .image23 {background-image: url("images/Gallery/22.png")}
-    .image24 {background-image: url("images/Gallery/23.jpeg")}
-    .image25 {background-image: url("images/Gallery/24.jpeg")}
-    .image26 {background-image: url("images/Gallery/25.jpeg")}
-    .image27 {background-image: url("images/Gallery/26.jpg")}
-    .image28 {background-image: url("images/Gallery/27.jpeg")}
-    .image28 {background-image: url("images/Gallery/28.jpeg")}
+
   }
 }
 
@@ -344,3 +316,4 @@ footer {
     }
   }
 }
+
