@@ -9,6 +9,6 @@ $('.popup-gallery').each(function() { // the containers for all your galleries
 });
 
 $(".pin-wrapper").pin({
-    // margin: {left: 10, right: 10}
 
 });
+

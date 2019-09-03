@@ -138,6 +138,7 @@ body {
 }
 .options .all-options {
   display: flex;
+  justify-content: center;
 }
 .options .options-title {
   text-align: center;
